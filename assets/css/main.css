@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Color Variable */
+
+:root {
+    --mainColor: #202124;
+}
+
+/* Other */
+
+body {
+    background-color: var(--mainColor);
+}
+
+/* Header */
+
+header {
+    height: 7vh;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.mainScreen {
+    background-image: url(../img/decors/mainDecor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 70vh;
+    border-radius: 50px;
+}
+.normalRisitas {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(../img/risitas/normalRisitas.png);
+    background-size: cover;
+    right: 34vw;
+    bottom: 35vh;
+}
+
+/* Footer */
+
+footer {
+    height: 22.3vh;
+    display: flex;
+}
+#containerSelect {
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+#containerSelect select {
+    width: 10vw;
+    height: 5vh;
+    background-color: #F09C62;
+}
+.containerChildSelect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttonGive {
+    width: 5vw;
+    height: 3vh;
+    margin-top: 1vh;
+}
+#containerInformationBar {
+    width: 30vw;
+    display: flex;
+    gap: 3vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerBar {
+    width: 1.5vw;
+    height: 15vh;
+    border: gray solid 3px;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse
+}
+.bar {
+    height: 80%;
+    background-color: red;  
+}
+.containerMainbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerMainbar p {
+    color: white;
+}

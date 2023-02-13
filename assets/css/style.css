@@ -1,0 +1,63 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #20262E;
+    background-image: url(../img/decors/loginDecor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+h1{
+    font-size: 4rem;
+    color: #fefefe;
+}
+main{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    gap: 70px;
+    height: 50vh;
+    width: 25vw;
+    border-radius: 10px;
+    color: #fefefe;
+    backdrop-filter: blur(20px);
+}
+#login input{
+    width: 15vw;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    font-size: 1.5rem;
+    color: #fefefe;
+    border-bottom: solid px #fefefe;
+}
+#login button{
+    width: 16vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: #fefefe;
+    color: #20262E;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
